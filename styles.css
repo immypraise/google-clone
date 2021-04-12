@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(34, 34, 34);
+    font-weight: 100;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    margin-top: 2rem;
+    align-content: space-around;
+    min-width: 180px;
+}
+
+.nav a{
+    color:rgb(34, 34, 34);
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.nav a img{
+    height: 25px;
+}
+
+.nav a img:hover{
+    background-color:rgb(199, 199, 199) ;
+}
+
+.input-ctn{
+    display: flex;
+    width: 38%;
+    min-width: 350px;
+    margin: auto;
+    border-radius: 30px;
+    height: 50px;
+    border: 1px solid rgb(199, 199, 199);
+    margin-top: 45px;
+    padding:  0;
+    overflow: hidden;
+}
+
+.input-ctn:hover{
+    box-shadow: -1px 2px 3px  rgb(187, 187, 187);
+}
+
+.input-ctn .img{
+    height:100%;
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-ctn .img img{
+    width: auto;
+    height: 50%;
+}
+
+.google-contents{
+    padding: 1em;
+    text-align: center;
+    margin: 100px auto;
+
+}
+
+.google-contents .image img{
+    width:270px;
+}
+
+.google-contents form input{
+    width: calc(100% - 100px);
+    height: 100%;
+    border: none;
+}
+
+
+.google-contents form input:focus{
+    outline: none;
+}
+
+.google-contents .buttons{
+    margin: 2rem;
+}
+
+.google-contents .buttons a{
+    background-color:rgb(241, 241, 241) ;
+    padding: 1em;
+    border: none;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 0.5rem;
+
+}
+
+.google-contents .buttons a:hover{
+   box-shadow: 0 0 3px grey;
+}
+
+.google-contents .languages a{
+    margin:0 0.25rem;
+    text-decoration: none;
+}
+
+.google-contents .languages a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.footer{
+    background-color:rgb(238, 238, 238) ;
+    display: flex;
+    position:absolute;
+    bottom: 0;
+    width:100vw;
+    flex-direction: column;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.footer-top, .footer-bootom{
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.footer-top a {
+    text-decoration: none;
+    color:inherit;
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    display: inline-block;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color:inherit;
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    display: inline-block;
+}
+
+.footer-bottom {
+    justify-content: space-between;
+    margin-right: 2rem;
+}
